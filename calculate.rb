@@ -2,7 +2,7 @@ def valid_operator?(operator)
   ["add", "subtract", "multiply", "divide"].include? operator
 end
 
-puts "Choose from the following operators: add, subtract, dultiply, or divide"
+puts "Choose from the following operators: add, subtract, multiply, or divide"
 operator = gets.chomp
 
 #if operator != "add" && operator != "subtract" && operator != "multiply" && operator != "divide" 
